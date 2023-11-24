@@ -1,3 +1,7 @@
+<script>
+  export let data
+</script>
+
 <div class="posts">
   <aside>
     <h4>Posts</h4>
@@ -13,6 +17,7 @@
     <slot />
   </main>
 </div>
+
 
 <style>
   .posts {

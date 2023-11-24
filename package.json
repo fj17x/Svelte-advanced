@@ -1,5 +1,8 @@
 {
   "name": "svelte-advanced",
+  "prisma": {
+    "seed": "pnpm dlx vite-node prisma/seed.js"
+  },
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -13,5 +16,8 @@
     "svelte": "^4.2.7",
     "vite": "^4.4.2"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "^5.6.0"
+  }
 }
