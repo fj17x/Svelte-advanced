@@ -1,0 +1,6 @@
+<script>
+  import { page } from "$app/stores"
+</script>
+
+<h1>Rest parameters</h1>
+<p>{JSON.stringify($page)}</p>
